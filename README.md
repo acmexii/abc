@@ -32,6 +32,7 @@ mvn spring-boot:run
 ## Test by API
 - BoundedContext312
 ```
+ http :8088/abcs id="id" status="status" 
 ```
 
 

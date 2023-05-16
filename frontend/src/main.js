@@ -44,6 +44,7 @@ templateFiles.keys().forEach(function(tempFiles) {
 Vue.use(Managing);
 const pluralCaseList = []
 
+pluralCaseList.push( {plural: "abcs", pascal: "Abc"} )
 
 
 Vue.prototype.$ManagerLists.forEach(function(item, idx) {
